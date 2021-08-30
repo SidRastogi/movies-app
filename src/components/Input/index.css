@@ -1,0 +1,9 @@
+.input {
+  width: 100%;
+}
+
+.input::placeholder {
+  color: red;
+  font-size: 1.2em;
+  font-style: italic;
+}

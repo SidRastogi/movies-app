@@ -1,0 +1,29 @@
+.formBody {
+width: 100%;
+}
+.container {
+border: 1px solid white;
+border-radius: 1vh;
+padding: 20px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.label {
+  margin-left: 10%;
+  width: 100%;
+}
+.input {
+  width: 100%;
+}
+
+.listComponet{
+  display: flex;
+  justify-content: flex-end;
+}
+

@@ -1,0 +1,86 @@
+.movie-List-Body {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 20px 0 0 0;
+}
+
+.movies-search-container {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  margin: 10px 15px 10px 10px;
+}
+
+.searchInput{
+  width: 100%;
+}
+
+.editInput{
+  width: 100%;
+}
+
+.editInput::placeholder {
+  color: red;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.movies-filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.movies-filter {
+  display: flex;
+  align-items: center;
+}
+
+.ResetButton {
+  min-width: 2vw;
+  min-height: 2vw;
+  background-color: green;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+}
+.movie-List-Body table {
+  min-width: 100%;
+  
+}
+.movie-List-Body table tr{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.movie-List-Body table tr th, .movie-List-Body table tr td{
+  display: flex;
+  width: 100%;
+  border: 1px solid white;
+  justify-content: center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.deleteButton {
+  min-width: 2vw;
+  min-height: 2vw;
+  background-color: red;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+}
+
+.editButton {
+  min-width: 2vw;
+  min-height: 2vw;
+  background-color: blue;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  margin-right: 10px;
+}

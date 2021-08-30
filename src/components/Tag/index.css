@@ -1,0 +1,7 @@
+.Tag {
+  padding: 3px 5px 3px 5px;
+  margin: 5px 5px 5px 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+}
